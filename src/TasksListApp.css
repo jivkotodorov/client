@@ -1,0 +1,79 @@
+.App {
+  width: 100vw;
+  background-color: white;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid rgba(187, 178, 178, 0.42);
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.footer {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-top: 1px solid rgba(187, 178, 178, 0.42);
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin: 5px;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.text_field {
+  width: 80%;
+  margin-right: 10px !important;
+}
+
+.button_add {
+  height: 40px;
+  width: 120px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.tasks_list_container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container {
+  width: 600px;
+  min-height: 300px;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+
+.task_container {
+  cursor: pointer;
+}
+
+.task {
+  flex-grow: 1;
+  margin-top: 5px;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+.MuiInput-underline:before {
+  border-bottom: none !important;
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: none !important;
+  padding-left: 50px;
+  padding-right: 20px;
+}
